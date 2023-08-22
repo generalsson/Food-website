@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="food.js"></script>
+
+    <style>
+      body{
+      background-image: url('background2.jpg');
+      
+    }
+    input[type='input']{
+      color: aqua;
+    }
+    p{
+        color: aliceblue;
+    }
+    h3{
+        color: aliceblue;
+    }
+    li{
+        color: aliceblue;
+    }
+    label{color: aliceblue;}
+
+    select{
+      width: 200px;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 4px;
+      background-color: #f1f1f1;
+
+    }
+    #dropdown option{
+      padding: 5px;
+    }
+    #dropdown:hover #drop-content {
+      display: block;
+    }
+    #five{
+      color: white;
+    }
+    #num{
+      color: white;
+    }
+    .home{
+      color: white;
+    }
+
+    </style>
+
+        
+  </head>
+  <body>
+    <div class="home">
+      <a href="/Food website/main.html">HOME</a>
+    </div>
+    <h3>
+      My Contact details
+    </h3>
+    
+
+    <ul>
+      <li>Email: newsite@yahoo.com</li>
+      <li>Phone No: 09038540699</li>
+      <li>Wuse, Abuja</li>
+    </ul>
+    <hr noshade="" color="black">
+<form action="mailto:info@gmail.com" method="post" enctype="text/plain">
+<label>Your name:</label>
+<input type="text" name="yourName" value=""><br>
+<label>Your Email:</label>
+<input type="email" name="yourEmail" value=""><br>
+<label>Your Message</label>
+<textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+<label>Date of birth</label>
+<input type="date"><br>
+<label>Single</label>
+<input type="radio"><br>
+<label>Married</label>
+<input type="radio"><br>
+
+
+
+</form>
+
+
+<p id="demo"></p>
+
+<button onclick="myFunction()">Submit</button>
+
+
+
+<p id="demo1"></p>
+<input type="button" onclick="today()" value="Click for date">
+
+<form name="form1" id="five">
+Enter your first name: <input type="text" name="name"/>
+Enter your second name: <input type="text" name="name2"/>
+  <input type="button" onclick="printvalue()" value="print name"/>
+</form>
+
+
+  </body>
+</html>

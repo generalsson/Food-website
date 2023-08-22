@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Ordering Website</title>
+<link rel="stylesheet" href="food.css">
+</head>
+<body>
+
+    <header>
+      <h1>Food Ordering</h1>
+      <p>Delicious Food Menu</p>
+      <marquee style="font-size: 20pt; font-weight: bold">We take pride in offering a wide range of products to suit different tastes and preferences
+        </marquee>
+    </header>
+    <div class="first"><a href="/Food website/LOGIN/login from1.html">LOGIN/SIGNUP</a></div>
+    <div class="second"><a href="/Food website/clothes.html">SHOP</a></div>
+    <div class="menu-container">
+      <div class="menu-item">
+        <img src="burger.jpg" alt="Burger">
+        <h2>Burger</h2>
+        
+        <p><strong>Price: $8.99</strong></p>
+        <label for="burger-options">Choose Toppings:</label>
+        <select id="burger-options">
+          <option value="none">No extra items</option>
+          <option value="cheese">Extra Cheese</option>
+          <option value="bacon">Bacon</option>
+          <option value="lettuce">Lettuce</option>
+        </select>
+        <button onclick="one()">Add to Cart</button>
+      </div>
+      <div class="menu-item">
+        <img src="pizza.jpg" alt="Pizza">
+        <h2>Pizza</h2>
+        
+        <p><strong>Price: $10.99</strong></p>
+        <label for="pizza-options">Choose Type:</label>
+        <select id="pizza-options">
+            <option value="none">No extra toppings</option>
+          <option value="margherita">Margherita</option>
+          <option value="pepperoni">Pepperoni</option>
+          <option value="vegetarian">Vegetarian</option>
+        </select>
+        <button onclick="one()">Add to Cart</button>
+      </div>
+      <!-- Add more menu items here -->
+      <div class="menu-item">
+        <img src="smoothie.jpg" alt="Smoothie">
+        <h2>Pizza</h2>
+        
+        <p><strong>Price: $5.99</strong></p>
+        <label for="smoothie-options">Choose Type:</label>
+        <select id="smoothie-options">
+            <option value="none">No extra flavours</option>
+          <option value="strawberry">Strawberry</option>
+          <option value="banana">Banana</option>
+          <option value="grape">Grape</option>
+        </select>
+        <button onclick="one()">Add to Cart</button>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2023 Catering Store. All rights reserved.</p>
+  </footer>
+    <script src="food.js"></script>
+
+  </body>
+</html>
